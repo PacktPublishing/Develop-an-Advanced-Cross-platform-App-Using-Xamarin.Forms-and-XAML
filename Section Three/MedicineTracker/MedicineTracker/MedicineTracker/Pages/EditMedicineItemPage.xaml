@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedicineTracker.Pages.EditMedicineItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView HasUnevenRows="true">
+                <TableView.Root>
+                    <TableSection Title="Medicine Details">
+                        <ViewCell>
+                            <StackLayout Padding="20,0,0,0" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                <Image Aspect="AspectFit" Source="icon.png" WidthRequest="70" HeightRequest="70" VerticalOptions="FillAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                        <EntryCell Label="Brand Name:" Text="{Binding BrandName, Mode=TwoWay}">
+                        </EntryCell>
+                        <EntryCell Label="Description:" Text="{Binding Description, Mode=TwoWay}">
+                        </EntryCell>
+                        <EntryCell Label="Side Effects:" Text="{Binding SideEffects, Mode=TwoWay}">
+                        </EntryCell>
+                    </TableSection>
+                    <TableSection Title="Dosage Details">
+                        <EntryCell Label="Dosage:" Text="{Binding Dosage, Mode=TwoWay}">
+                        </EntryCell>
+                        <ViewCell>
+                            <StackLayout Padding="20,0,0,0" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                <Label Text="Date Dose Taken:" HorizontalOptions="Fill" YAlign="Center" />
+                                <DatePicker Date="{Binding DateDoseTaken, Mode=TwoWay}" Format="dd-MM-yyyy" HorizontalOptions="FillAndExpand" TextColor="Green">
+                                </DatePicker>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Padding="20,0,0,0" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                <Label Text="Time Dose Taken:" HorizontalOptions="Fill" YAlign="Center" />
+                                <TimePicker Time="{Binding TimeDoseTaken, Mode=TwoWay}" HorizontalOptions="FillAndExpand" TextColor="Red">
+                                </TimePicker>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

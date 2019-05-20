@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedicineTracker.Pages.MedicineListPage">
+    <ContentPage.Content>
+        <ListView x:Name="MedicineListView" HasUnevenRows="true" SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+                        <StackLayout x:Name="cellLayout" Padding="10,5,10,5" Spacing="0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Image Aspect="AspectFit" Source="medicine.png" WidthRequest="32" HeightRequest="32" VerticalOptions="FillAndExpand" />
+                            <StackLayout x:Name="DetailsLayout" Padding="10,0,0,0" Spacing="0" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding BrandName}" FontAttributes="Bold" FontSize="16" TextColor="Black" />
+                                <Label Text="{Binding Description}" FontAttributes="Bold" FontSize="12" TextColor="Blue" />
+                                <Label Text="{Binding DateDoseTaken}" YAlign="Center" Font="Small" />
+                                <StackLayout x:Name="SideEffects" VerticalOptions="Fill" Orientation="Vertical" Spacing="3">
+                                    <Label Text="{Binding SideEffects}" FontSize="12" TextColor="Black" />
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
