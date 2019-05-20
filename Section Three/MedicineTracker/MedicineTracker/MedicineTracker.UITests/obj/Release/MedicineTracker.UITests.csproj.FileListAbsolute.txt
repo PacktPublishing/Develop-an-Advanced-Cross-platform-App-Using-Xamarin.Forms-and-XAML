@@ -1,0 +1,16 @@
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/bin/Release/MedicineTracker.UITests.dll
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/bin/Release/nunit.framework.dll
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/bin/Release/Xamarin.UITest.dll
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/bin/Release/nunit.framework.xml
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/bin/Release/Xamarin.UITest.xml
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/obj/Release/MedicineTracker.UITests.csproj.CoreCompileInputs.cache
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/obj/Release/MedicineTracker.UITests.dll
+/Users/stevendaniel/Desktop/MedicineTracker/MedicineTracker.UITests/obj/Release/MedicineTracker.UITests.csprojResolveAssemblyReference.cache
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/bin/Release/MedicineTracker.UITests.dll
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/bin/Release/nunit.framework.dll
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/bin/Release/Xamarin.UITest.dll
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/bin/Release/nunit.framework.xml
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/bin/Release/Xamarin.UITest.xml
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/obj/Release/MedicineTracker.UITests.csprojResolveAssemblyReference.cache
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/obj/Release/MedicineTracker.UITests.csproj.CoreCompileInputs.cache
+/Users/stevendaniel/Projects/MedicineTracker/MedicineTracker.UITests/obj/Release/MedicineTracker.UITests.dll
